@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Resume</title>
+</head>
+
+<body>
+<h1>Sharvari Ghumde</h1>
+<p>Email: abc.gmail.com,phone4567890</p>
+
+<h2>Education</h2>
+<p>Computer science(DS) - S.b jain college of Technology managment & reserch
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Javascript</li>
+</ul>
+<h2>Experience</h2>
+<p>Intern at Microsoft company<p>
+<h2>Hobbies</h2>
+<p>Reading , Coding</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                           
