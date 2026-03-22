@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Scholarship Registration Form</title>
+<style>
+body{
+font-family: Arial;
+background-color: #f2f2f2;
+}
+
+form{
+background: white;
+width: 450px;
+margin: auto;
+padding: 20px;
+border-radius: 8px;
+}
+
+h2{
+text-align: center;
+}
+
+input, select, textarea{
+width: 100%;
+padding: 8px;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+button{
+padding: 10px;
+width: 48%;
+}
+</style>
+</head>
+
+<body>
+
+<form>
+<h2>Scholarship Registration Form</h2>
+
+<fieldset>
+<legend>Personal Information</legend>
+
+<label>Full Name</label>
+<input type="text" required>
+
+<label>Email</label>
+<input type="email" required>
+
+<label>Mobile Number</label>
+<input type="tel">
+
+<label>Date of Birth</label>
+<input type="date">
+
+<label>Gender</label><br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Education Details</legend>
+
+<label>Course</label>
+<select>
+<option>B.Tech</option>
+<option>B.Sc</option>
+<option>BCA</option>
+<option>B.Com</option>
+</select>
+
+<label>College Name</label>
+<input type="text">
+
+<label>Percentage / CGPA</label>
+<input type="number">
+
+<label>Skills</label><br>
+<input type="checkbox"> Programming
+<input type="checkbox"> Web Development
+<input type="checkbox"> Communication
+<input type="checkbox"> Leadership
+
+</fieldset>
+
+<br>
+
+<label>Address</label>
+<textarea rows="4"></textarea>
+
+<label>Upload Documents</label>
+<input type="file">
+
+<br><br>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+</form>
+
+</body>
+</html>
